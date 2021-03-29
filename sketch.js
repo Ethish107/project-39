@@ -97,7 +97,7 @@ function draw() {
   push()
   fill("green");
   textSize(30);
-  text("Score: "+ score, trex.x + 700,50);
+  text("Score: "+ score, trex.x + 600,50);
   pop()
   
   console.log("this is game state" + gameState);
